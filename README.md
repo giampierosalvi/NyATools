@@ -21,7 +21,7 @@ NOTE: NyA exports in `xls` format, whereas the script only works with `xlsx`. Wh
 The first time
 1) export the data from NyA (it will download a file called `excel` without extention)
 2) open the file in your favourite Excel variant and save it as "Microsoft Excel 2007-2013 XML (.xlsx)" format. It is good practice to include the date and time in the file name because it might come handy later, for example `export2018-03-14_2040.xlsx`
-3) Remove all the data from the file leaving only the first header row. Save this file as `empty.xlsx`
+3) Remove all the data from the spreadsheet leaving only the first header row. Save this version as `empty.xlsx`
 4) run `python CompareNyAExports.py empty.xlsx export2018-03-14_2040.xlsx diff2018-03-14_2040.xlsx`
 
 You can now copy the rows in `diff2018-03-14_2040.xlsx` into your working document.
