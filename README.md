@@ -32,7 +32,7 @@ To do this, some magic is performed to avoid cases when commas are used within t
 
 NOTE: NyA exports in `xls` format, whereas the script only works with `xlsx`. When you export from NyA, you will have to open the file in Excel or LibreOffice and save as "Microsoft Excel 2007-2013 XML (.xlsx)" format.
 
-### This is a typical working flow:
+### Work-flow example:
 The first time
 1) export the data from NyA (it will download a file called `excel` without extention)
 2) open the file in your favourite Excel variant and save it as "Microsoft Excel 2007-2013 XML (.xlsx)" format. It is good practice to include the date and time in the file name because it might come handy later, for example `export2018-03-14_2040.xlsx`
