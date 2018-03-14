@@ -15,7 +15,7 @@ and compares two exel files exported from NyA at different time steps and produc
 2) a list of applications that are in `newExport.xlsx` but not in `oldExport.xlsx`
 3) the applications that are in both files but with different personal numbers
 
-The script also saves the rows that should be added to your local file in `diff.xlsx`. It will also parse the "ADDITIONAL INFO" column that contains comma separated fields with information about the degree, total number of credits, country and university. In this last case, some parsing is performed to avoid cases when commas are used within the same field.
+The script also saves the rows that should be added to your local file in `diff.xlsx`. It will also parse the "ADDITIONAL INFO" column that contains comma separated fields with information about the degree, total number of credits, country and university. In this last case, some magic is performed to avoid cases when commas are used within the same field.
 
 NOTE: NyA exports in `xls` format, whereas the script only works with `xlsx`. When you export from NyA, you will have to open the file in Excel or LibreOffice and save as "Microsoft Excel 2007-2013 XML (.xlsx)" format.
 
