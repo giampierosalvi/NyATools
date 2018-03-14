@@ -14,7 +14,9 @@ You can run the script with:
 
 `python CompareNyAExports.py oldExport.xlsx newExport.xlsx diff.xlsx`
 
-and compares two exel files exported from NyA at different time steps and produces the following output in the terminal:
+Where `oldExport.xlsx` and `newExport.xlsx` are two exel files exported from NyA at different time steps.
+
+The script produces the following output in the terminal:
 1) a list of applications that are in `oldExport.xlsx` but not in `newExport.xlsx`
 2) a list of applications that are in `newExport.xlsx` but not in `oldExport.xlsx`
 3) the applications that are in both files but with different personal numbers
