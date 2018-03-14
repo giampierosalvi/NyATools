@@ -10,7 +10,7 @@ Tools to work around limitations in NyA. NyA is the web based system used in Swe
 The script depends on the python package `openpyxl`
 
 ### Usage:
-This is a python script that can be run with:
+You can run the script with:
 
 `python CompareNyAExports.py oldExport.xlsx newExport.xlsx diff.xlsx`
 
