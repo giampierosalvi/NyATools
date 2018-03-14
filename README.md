@@ -2,10 +2,14 @@
 Tools to work around limitations in NyA. NyA is the web based system used in Sweden to manage the admission to university degrees. If you use NyA to rank applications, you will probably need to export some of the information and work locally. Here are some tools that may simplify that process.
 
 ## CompareNyAExports.py
-Goals:
+### Goals:
 1) The admission office updates the information in NyA continuously during the admission period. If you work with exported data, you will need a method to update your local data on a regular basis.
 2) The admission office includes useful information in the column "ADDITIONAL INFO" with comma separeted fields. The script parses this information and divides the fields into columns.
 
+### Dependencies:
+The script depends on the python package `openpyxl`
+
+### Usage:
 This is a python script that can be run with:
 
 `python CompareNyAExports.py oldExport.xlsx newExport.xlsx diff.xlsx`
