@@ -31,3 +31,6 @@ The following times:
 2) run `python CompareNyAExports.py export2018-03-14_2040.xlsx export2018-03-15_1030.xlsx diff2018-03-15_1030.xlsx`
 
 Again, you can now add the rows in `diff2018-03-15_1030.xlsx` into your working document, and fix the personal numbers that changed in the meantime by hand.
+
+### Notes:
+* The extra complication in the script with personal numbers is due to the fact that NyA does not export application numbers. If we manage to convince the NyA developers to include the application number in the exports, we can greately simplify the script. We could also remove personal numbers and names, making the resulting local file anonymous.
