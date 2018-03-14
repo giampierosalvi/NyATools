@@ -21,7 +21,7 @@ The script produces the following output in the terminal:
 2) a list of applications that are in `newExport.xlsx` but not in `oldExport.xlsx`
 3) the applications that are in both files but with different personal numbers
 
-The script also saves the rows that should be added to your local file in `diff.xlsx`. In the output the information included in the "ADDITIONAL INFO" column will be split into the following columns:
+The script also saves the rows that should be added to your local file in `diff.xlsx`. Based on the information included in the "ADDITIONAL INFO" column the following columns are added to `diff.xlsx`:
 * Degree
 * Credits: total number of credits in the degree
 * Date: date of completion
